@@ -4,8 +4,16 @@ import App from "./App";
 import "./index.css";
 import registerServiceWorker from "./registerServiceWorker";
 
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+
+const DecoratedApp = () => (
+  <MuiThemeProvider>
+    <App />
+  </MuiThemeProvider>
+);
+
 ReactDOM.render(
-  <App />,
+  <DecoratedApp />,
   document.getElementById("root") as HTMLElement
 );
 registerServiceWorker();

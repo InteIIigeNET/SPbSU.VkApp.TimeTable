@@ -1,5 +1,5 @@
 export default interface IDivision{
-    oid : string,
-    alias : string
-    name : string
+    Oid : string,
+    Alias : string
+    Name : string
 }
