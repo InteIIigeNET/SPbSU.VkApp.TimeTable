@@ -5,7 +5,10 @@
   "dependencies": {
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
-    "react-scripts-ts": "3.1.0"
+    "react-scripts-ts": "3.1.0",
+    "superagent": "^4.0.0-beta.5",
+    "superagent-no-cache": "^0.1.1",
+    "ua-parser-js": "^0.7.19"
   },
   "scripts": {
     "start": "react-scripts-ts start",
